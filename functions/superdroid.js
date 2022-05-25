@@ -3,6 +3,6 @@ exports.handler = async () => {
   const data = { name: "droid", age: "30", job: "robot" };
   return {
     statusCode: 200,
-    body: JSON.stringfy(data),
+    body: JSON.stringify(data),
   };
 };
