@@ -10,7 +10,7 @@ export default function Navbar() {
     <div className="container">
       <nav>
         <Image src="/rupee.png" width={50} height={48} />
-        <h1>Gaming Vibes</h1>
+        <h1>Droid Gaming</h1>
         {authReady && (
           <ul>
             <li>
